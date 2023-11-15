@@ -54,7 +54,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  grid-column: span 4;
+  grid-column: 1;
   padding: 5px;
 
   text-orientation: mixed;
@@ -70,25 +70,20 @@
 
   /* Adjustments for 1x5 grid */
   .grid-1x5 {
-    grid-template-columns: repeat(5, 72px);
+    grid-template-columns: repeat(5, 50px);
   }
 
   /* Adjustments for 4x4 grid */
   .grid-2x3 {
-    grid-template-columns: repeat(3, 72px);
-    grid-template-rows: repeat(2, 72px);
+    grid-template-columns: repeat(3, 50px);
+    grid-template-rows: repeat(2, 50px);
   }
 
   /* Adjustments for 5x4 grid */
   .grid-5x4 {
-    grid-template-columns: repeat(4, 72px);
-    grid-template-rows: repeat(5, 72px);
+    grid-template-columns: repeat(1, 350px);
+    grid-template-rows: repeat(20, 75px);
   }
-
-audio {
-  width: 100%; /* Make sure the audio element takes the full width of its container */
-  max-width: 100%; /* Add this to ensure it doesn't overflow on small devices */
-}
 
 </style>
 
@@ -107,72 +102,72 @@ audio {
     <div class="grid grid-5x4">
 
       <!-- Row labels -->
-      <div class="row-label">The quick brown fox jumps over the lazy dog.</div>
-      <div class="row-label">With measured words, she explained the strange rhythm of the universe.</div>
-      <div class="row-label">Bright violets grow under the dense canopy, shading their vivid colors.</div>
-      <div class="row-label">Jazz and classical music often feature complex harmonies and rhythms.</div>
-      <div class="row-label">Six whimsical wizards make powerful, rhythmic chants deep in the forest.</div>
-      <div class="row-label">The doctor's prescription advised taking unique, holistic measures.</div>
-      <div class="row-label">The swift cheetah is an elegant and extraordinary creature.</div>
-      <div class="row-label">The rugged path wound around the steep hill to the quaint village.</div>
-      <div class="row-label">Gazing at the azure sky in July, the dreamy poet wrote verses.</div>
-      <div class="row-label">The glum monk thought deeply about life's complex queries.</div>
+      <div class="row-label">#1. The quick brown fox jumps over the lazy dog.</div>
+      <div class="row-label">#2. With measured words, she explained the strange rhythm of the universe.</div>
+      <div class="row-label">#3. Bright violets grow under the dense canopy, shading their vivid colors.</div>
+      <div class="row-label">#4. Jazz and classical music often feature complex harmonies and rhythms.</div>
+      <div class="row-label">#5. Six whimsical wizards make powerful, rhythmic chants deep in the forest.</div>
+      <div class="row-label">#6. The doctor's prescription advised taking unique, holistic measures.</div>
+      <div class="row-label">#7. The swift cheetah is an elegant and extraordinary creature.</div>
+      <div class="row-label">#8. The rugged path wound around the steep hill to the quaint village.</div>
+      <div class="row-label">#9. Gazing at the azure sky in July, the dreamy poet wrote verses.</div>
+      <div class="row-label">#10. The glum monk thought deeply about life's complex queries.</div>
 
-      <div class="audio" style="grid-column: span 5; grid-row:2;">
+      <div class="audio" style="grid-column: 1; grid-row:2;">
         <audio controls>
           <source src="./assets/crosstalk/sample20_1.mp3" type="audio/mpeg">
           Your browser does not support the audio element.
         </audio>
       </div>
-      <div class="audio" style="grid-column: span 5; grid-row:4;">
+      <div class="audio" style="grid-column: 1; grid-row:4;">
         <audio controls>
           <source src="./assets/crosstalk/sample20_2.mp3" type="audio/mpeg">
           Your browser does not support the audio element.
         </audio>
       </div>
-      <div class="audio" style="grid-column: span 5; grid-row:6;">
+      <div class="audio" style="grid-column: 1; grid-row:6;">
         <audio controls>
           <source src="./assets/crosstalk/sample20_3.mp3" type="audio/mpeg">
           Your browser does not support the audio element.
         </audio>
       </div>
-      <div class="audio" style="grid-column: span 5; grid-row:8;">
+      <div class="audio" style="grid-column: 1; grid-row:8;">
         <audio controls>
           <source src="./assets/crosstalk/sample20_4.mp3" type="audio/mpeg">
           Your browser does not support the audio element.
         </audio>
       </div>
-      <div class="audio" style="grid-column: span 5; grid-row:10;">
+      <div class="audio" style="grid-column: 1; grid-row:10;">
         <audio controls>
           <source src="./assets/crosstalk/sample20_5.mp3" type="audio/mpeg">
           Your browser does not support the audio element.
         </audio>
       </div>
-      <div class="audio" style="grid-column: span 5; grid-row:12;">
+      <div class="audio" style="grid-column: 1; grid-row:12;">
         <audio controls>
           <source src="./assets/crosstalk/sample20_6.mp3" type="audio/mpeg">
           Your browser does not support the audio element.
         </audio>
       </div>
-      <div class="audio" style="grid-column: span 5; grid-row:14;">
+      <div class="audio" style="grid-column: 1; grid-row:14;">
         <audio controls>
           <source src="./assets/crosstalk/sample20_7.mp3" type="audio/mpeg">
           Your browser does not support the audio element.
         </audio>
       </div>
-      <div class="audio" style="grid-column: span 5; grid-row:16;">
+      <div class="audio" style="grid-column: 1; grid-row:16;">
         <audio controls>
           <source src="./assets/crosstalk/sample20_8.mp3" type="audio/mpeg">
           Your browser does not support the audio element.
         </audio>
       </div>
-      <div class="audio" style="grid-column: span 5; grid-row:18;">
+      <div class="audio" style="grid-column: 1; grid-row:18;">
         <audio controls>
           <source src="./assets/crosstalk/sample20_9.mp3" type="audio/mpeg">
           Your browser does not support the audio element.
         </audio>
       </div>
-      <div class="audio" style="grid-column: span 5; grid-row: 20;">
+      <div class="audio" style="grid-column: 1; grid-row: 20;">
         <audio controls>
           <source src="./assets/crosstalk/sample20_10.mp3" type="audio/mpeg">
           Your browser does not support the audio element.
@@ -202,61 +197,61 @@ audio {
       <div class="row-label">Classical #9</div>
       <div class="row-label">Classical #10</div>
 
-      <div class="audio" style="grid-column: span 5; grid-row:2;">
+      <div class="audio" style="grid-column: 1; grid-row:2;">
         <audio controls>
           <source src="./assets/instrumental/instrumental00000.mp3" type="audio/mpeg">
           Your browser does not support the audio element.
         </audio>
       </div>
-      <div class="audio" style="grid-column: span 5; grid-row:4;">
+      <div class="audio" style="grid-column: 1; grid-row:4;">
         <audio controls>
           <source src="./assets/instrumental/instrumental00001.mp3" type="audio/mpeg">
           Your browser does not support the audio element.
         </audio>
       </div>
-      <div class="audio" style="grid-column: span 5; grid-row:6;">
+      <div class="audio" style="grid-column: 1; grid-row:6;">
         <audio controls>
           <source src="./assets/instrumental/instrumental00002.mp3" type="audio/mpeg">
           Your browser does not support the audio element.
         </audio>
       </div>
-      <div class="audio" style="grid-column: span 5; grid-row:8;">
+      <div class="audio" style="grid-column: 1; grid-row:8;">
         <audio controls>
           <source src="./assets/instrumental/instrumental00003.mp3" type="audio/mpeg">
           Your browser does not support the audio element.
         </audio>
       </div>
-      <div class="audio" style="grid-column: span 5; grid-row:10;">
+      <div class="audio" style="grid-column: 1; grid-row:10;">
         <audio controls>
           <source src="./assets/instrumental/instrumental00004.mp3" type="audio/mpeg">
           Your browser does not support the audio element.
         </audio>
       </div>
-      <div class="audio" style="grid-column: span 5; grid-row:12;">
+      <div class="audio" style="grid-column: 1; grid-row:12;">
         <audio controls>
           <source src="./assets/instrumental/instrumental00005.mp3" type="audio/mpeg">
           Your browser does not support the audio element.
         </audio>
       </div>
-      <div class="audio" style="grid-column: span 5; grid-row:14;">
+      <div class="audio" style="grid-column: 1; grid-row:14;">
         <audio controls>
           <source src="./assets/instrumental/instrumental00006.mp3" type="audio/mpeg">
           Your browser does not support the audio element.
         </audio>
       </div>
-      <div class="audio" style="grid-column: span 5; grid-row:16;">
+      <div class="audio" style="grid-column: 1; grid-row:16;">
         <audio controls>
           <source src="./assets/instrumental/instrumental00007.mp3" type="audio/mpeg">
           Your browser does not support the audio element.
         </audio>
       </div>
-      <div class="audio" style="grid-column: span 5; grid-row:18;">
+      <div class="audio" style="grid-column: 1; grid-row:18;">
         <audio controls>
           <source src="./assets/instrumental/instrumental00008.mp3" type="audio/mpeg">
           Your browser does not support the audio element.
         </audio>
       </div>
-      <div class="audio" style="grid-column: span 5; grid-row: 20;">
+      <div class="audio" style="grid-column: 1; grid-row: 20;">
         <audio controls>
           <source src="./assets/instrumental/instrumental00009.mp3" type="audio/mpeg">
           Your browser does not support the audio element.
@@ -286,61 +281,61 @@ audio {
       <div class="row-label">Pop Lyrical #9</div>
       <div class="row-label">Pop Lyrical #10</div>
 
-      <div class="audio" style="grid-column: span 5; grid-row:2;">
+      <div class="audio" style="grid-column: 1; grid-row:2;">
         <audio controls>
           <source src="./assets/lyric/lyric00000.mp3" type="audio/mpeg">
           Your browser does not support the audio element.
         </audio>
       </div>
-      <div class="audio" style="grid-column: span 5; grid-row:4;">
+      <div class="audio" style="grid-column: 1; grid-row:4;">
         <audio controls>
           <source src="./assets/lyric/lyric00001.mp3" type="audio/mpeg">
           Your browser does not support the audio element.
         </audio>
       </div>
-      <div class="audio" style="grid-column: span 5; grid-row:6;">
+      <div class="audio" style="grid-column: 1; grid-row:6;">
         <audio controls>
           <source src="./assets/lyric/lyric00002.mp3" type="audio/mpeg">
           Your browser does not support the audio element.
         </audio>
       </div>
-      <div class="audio" style="grid-column: span 5; grid-row:8;">
+      <div class="audio" style="grid-column: 1; grid-row:8;">
         <audio controls>
           <source src="./assets/lyric/lyric00003.mp3" type="audio/mpeg">
           Your browser does not support the audio element.
         </audio>
       </div>
-      <div class="audio" style="grid-column: span 5; grid-row:10;">
+      <div class="audio" style="grid-column: 1; grid-row:10;">
         <audio controls>
           <source src="./assets/lyric/lyric00004.mp3" type="audio/mpeg">
           Your browser does not support the audio element.
         </audio>
       </div>
-      <div class="audio" style="grid-column: span 5; grid-row:12;">
+      <div class="audio" style="grid-column: 1; grid-row:12;">
         <audio controls>
           <source src="./assets/lyric/lyric00005.mp3" type="audio/mpeg">
           Your browser does not support the audio element.
         </audio>
       </div>
-      <div class="audio" style="grid-column: span 5; grid-row:14;">
+      <div class="audio" style="grid-column: 1; grid-row:14;">
         <audio controls>
           <source src="./assets/lyric/lyric00006.mp3" type="audio/mpeg">
           Your browser does not support the audio element.
         </audio>
       </div>
-      <div class="audio" style="grid-column: span 5; grid-row:16;">
+      <div class="audio" style="grid-column: 1; grid-row:16;">
         <audio controls>
           <source src="./assets/lyric/lyric00007.mp3" type="audio/mpeg">
           Your browser does not support the audio element.
         </audio>
       </div>
-      <div class="audio" style="grid-column: span 5; grid-row:18;">
+      <div class="audio" style="grid-column: 1; grid-row:18;">
         <audio controls>
           <source src="./assets/lyric/lyric00008.mp3" type="audio/mpeg">
           Your browser does not support the audio element.
         </audio>
       </div>
-      <div class="audio" style="grid-column: span 5; grid-row: 20;">
+      <div class="audio" style="grid-column: 1; grid-row: 20;">
         <audio controls>
           <source src="./assets/lyric/lyric00009.mp3" type="audio/mpeg">
           Your browser does not support the audio element.
